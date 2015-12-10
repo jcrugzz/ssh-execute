@@ -1,0 +1,31 @@
+{
+  "name": "ssh-execute",
+  "version": "0.0.1",
+  "description": "ssh into one or many servers and execute the specified script that is given",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jcrugzz/ssh-execute.git"
+  },
+  "keywords": [
+    "ssh",
+    "sequest",
+    "ssh2",
+    "sftp"
+  ],
+  "author": "Jarrett Cruger <jcrugzz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcrugzz/ssh-execute/issues"
+  },
+  "homepage": "https://github.com/jcrugzz/ssh-execute#readme",
+  "dependencies": {
+    "bl": "^1.0.0",
+    "each-limit": "^1.0.0",
+    "readable-stream": "^2.0.4",
+    "sequest": "^0.9.0"
+  }
+}
